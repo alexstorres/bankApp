@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&family=Poppins:wght@200&family=Prosto+One&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #CBD6CC;
+    box-shadow: -17px 0px 70px 18px rgba(164, 164, 164, 0.2);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.header-img {
+    height: 25px;
+    margin-top: 35px;
+
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 18px;
+    gap: 62px;
+    width: 354px;
+    height: 21px;
+    top: 50px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #000000;
+}
+
+.header-button {
+    margin-top: 25px;
+    width: 124px;
+    height: 48px;
+    top: 0px;
+    background: #E3432B;
+    border-radius: 38px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.9872px;
+    line-height: 27px;
+    color: #FFFFFF;
+    
+}
+
+
+.main {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 30px;
+    border-top: 0.3px solid #FFFFFF;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.main-section-one-image {
+    display: flex;
+    width: 500px;
+    margin-left: 30%;
+}
+
+.main-section-two-image {
+    display: flex;
+    width: 300px;
+    margin-left: 300px;
+}
+
+.footer {
+    background-image: url(files/Ellipsedown.svg);
+    text-align: center;
+}
+
+.footer-section {
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h3, p {
+    font-family: 'Prosto One';
+}
